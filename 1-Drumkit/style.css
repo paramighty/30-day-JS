@@ -1,0 +1,49 @@
+body {
+	background-image: url("nature.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	margin: 0;
+	height: 100vh;
+	position: relative;
+}
+
+.drumKeys {
+	margin: 0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+button {
+	width: 100px; /* Fixed width */
+	height: 100px; /* Fixed height */
+	margin: 1px;
+	border: 2px solid #000000;
+	color: white;
+	background-color: transparent;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	box-shadow: 0px 0px 0px 0px #ffc0cb;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+p {
+	color: #ff7f50;
+	font-size: 16px;
+}
+
+.animate-button {
+	transition: transform 0.2s;
+}
+.animate-button.grow {
+	transform: scale(1.2);
+}
